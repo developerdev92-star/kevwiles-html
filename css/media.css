@@ -1,0 +1,459 @@
+/* =========================
+   LARGE DEVICES
+========================= */
+@media (max-width: 1400px) {
+
+    /* .container {
+        max-width: 1200px;
+    } */
+
+}
+
+/* =========================
+   LAPTOP
+========================= */
+
+
+
+
+
+@media (max-width: 1200px) {
+    /* .container {
+        max-width: 1050px;
+    } */
+
+    .bluer-bg span {
+        font-size: 28px;
+    }
+
+    .navigation-top {
+        gap: 28px;
+    }
+
+    .discover-details-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .prev-btn {
+        left: -30px;
+    }
+
+    .next-btn {
+        right: -30px;
+    }
+
+    .career-title {
+        font-size: 56px;
+    }
+
+    .career-description {
+        font-size: 18px;
+    }
+
+    .career-image {
+        height: 500px;
+    }
+
+    .prev-btn {
+        left: -30px;
+    }
+
+    .next-btn {
+        right: -30px;
+    }
+
+    .brands-logosection ul li .brand-logo {
+        width: 120px;
+    }
+
+    .cost-price-section__design {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* .container {
+        max-width: 1000px;
+    } */
+    .contact-information-block {
+        max-width: 100%;
+    }
+
+    .cost-price-section__design {
+        width: 80%;
+    }
+
+    .cost-price-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bluer-bg {
+        width: auto;
+    }
+
+    .bluer-bg span {
+        font-size: 20px;
+    }
+
+    .strategic-img-card {
+        height: auto;
+        max-width: 400px;
+    }
+
+    .heading-title h2 {
+        font-size: 36px;
+    }
+
+    .nav-bar .navigationlist {
+        gap: 30px;
+    }
+
+    .navigation-top {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-inner {
+        height: 80px;
+    }
+
+    .logo img {
+        width: 140px;
+    }
+
+    .service-logo-banner ul {
+        flex-wrap: wrap;
+    }
+
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 992px) {
+    .contact-information-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brands-logosection {
+        margin: 50px 0px 0px;
+    }
+
+    .sco-card-parents {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .freealancer-img-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .career-content {
+        padding: 0px 20px;
+    }
+
+    .career-wrapper {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .career-content {
+        max-width: 100%;
+    }
+
+    .career-title {
+        font-size: 48px;
+    }
+
+    .career-image {
+        height: 450px;
+    }
+
+    .testimonial-text {
+        font-size: 30px;
+    }
+
+    .slider-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .prev-btn {
+        left: -25px;
+    }
+
+    .next-btn {
+        right: -25px;
+    }
+
+    .freealancer-img-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .video-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .personalised-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+    .personalised-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-form__block {
+        padding: 0px 20px;
+    }
+
+    .strategies-card-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .discover-details-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .career-title {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .career-description {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .career-image {
+        height: 320px;
+    }
+
+    .testimonial-section {
+        padding: 60px 20px;
+    }
+
+    .testimonial-text {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .quote-icon {
+        font-size: 70px;
+    }
+
+    .author-name {
+        font-size: 16px;
+    }
+
+    .slider-btn {
+        top: auto;
+        bottom: -80px;
+        transform: none;
+    }
+
+    .prev-btn {
+        left: 40%;
+    }
+
+    .next-btn {
+        right: 40%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .contact-information-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sco-card-parents,
+    .freealancer-img-section,
+    .discover-details-card,
+    .video-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cost-price-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-content {
+        gap: 20px;
+    }
+
+    .seo-card-title p {
+        width: 100%;
+    }
+
+    .strategic-img-card {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .fractional-sco-header {
+        padding: 50px 0px !important;
+    }
+
+    .strategies-card-block {
+        margin: 0px 0px 30px;
+        gap: 30px;
+    }
+
+    .bluer-bg {
+        padding: 15px 20px;
+    }
+
+    .heading-title h2 {
+        font-size: 32px;
+    }
+
+    .future-shopify-experts .scale-section {
+        padding: 160px 0px 0px;
+    }
+
+    .banner-title h2 {
+        font-size: 32px;
+    }
+
+    .banner-title p {
+        font-size: 20px;
+    }
+
+    .service-text-cart p:first-child {
+        font-size: 16px;
+        color: rgb(113, 113, 122);
+    }
+
+    .service-block-card {
+        padding: 70px 0px;
+    }
+
+    .testimonial-section {
+        padding: 0px;
+    }
+
+    .seo-service-block {
+        padding: 80px 5px
+    }
+
+    .sco-card-parents {
+        padding: 0px;
+    }
+
+    .scale-card-block .client-review {
+        flex-wrap: wrap;
+    }
+
+    .person-img-service {
+        height: auto;
+    }
+
+    .get-touch-section {
+        padding: 80px 0px;
+    }
+
+    .faq-section {
+        padding: 0px 15px;
+
+    }
+
+    .strategies-text-details p {
+        font-size: 18px;
+    }
+
+    .faq-question {
+        font-size: 16px;
+    }
+
+    .fractional-sco-page .seo-service-block {
+        padding: 0px 5px 50px
+    }
+
+    .faq-block-start {
+        margin-top: 40px;
+    }
+
+    .cost-price-section__design {
+        width: 100%;
+    }
+
+    .strategic-section-card {
+        gap: 30px
+    }
+
+    .blog-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blog-img-block {
+        max-width: 100%;
+        min-width: 100%;
+        height: 200px;
+    }
+
+    .single-title .heading-title h2 {
+        font-size: 40px;
+    }
+    .client-review{
+        flex-wrap:wrap
+    }
+    .names_badges{
+        top: 20px;
+    }
+    .badges_company{
+        bottom: 20px !important;
+        top: unset;
+    }
+    .names_badges p{
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:1080px) {
+    .names_badges {
+        right: 0px;
+    }
+
+    .slider-btn {
+        top: auto;
+        bottom: -80px;
+        transform: none;
+    }
+
+    .next-btn {
+        right: 40px;
+    }
+
+    .prev-btn {
+        left: 40px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .heading-title h2 {
+        font-size: 24px;
+    }
+
+    .project-details-card {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 25px;
+    }
+
+}
